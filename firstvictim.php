@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Function to handle form submission using AJAX
             $('form').submit(function(e) {
                 e.preventDefault();
-                
+
                 // Get the form data
                 var formData = $(this).serialize();
 
@@ -109,10 +109,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="container">
         <h2>Here is your chance to "EXECUTE" the killer and Get away. The Server only trust itself when accessing the /shell.php?cmd</h2>
         <form>
-            <label for="url">Remote PHP URL:</label>
-            <input type="text" id="url" name="url">
+            <label for="url">URL TO FREEDOM LET THE THE SHADOW GUIDE YOU:</label>
+            <input type="text" id="url" name="url" placeholder="scheme://IP/shell.php?cmd=??????">
 
-            <button type="submit">Execute Code</button>
+            <button type="submit">Execute</button>
         </form>
 
         <div class="response"></div>
