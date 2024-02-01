@@ -40,7 +40,7 @@
 
     // Blacklist filenames containing "victim," "door," or "flag",
     $blacklist = ['victim', 'door', 'flag', 'ell'];
-    
+
     foreach ($blacklist as $keyword) {
         if (stripos($file_name, $keyword) !== false) {
             echo "Invalid filename!";
@@ -54,8 +54,10 @@
     } else {
         echo "File not found!";
     }
-} else {
-        echo "Bruteforce the Parameter that will allow you to disclose the source code of this page there might be a clue how we can escape from the Jomskiller";
+   } else {
+        echo "There is only one way out only /shell.php <br>";
+        echo "Bruteforce the Parameter that will allow you to disclose the source code of index.php there might be a clue how we can escape from the Jomskiller";
+
     }
     ?>
 </body>
