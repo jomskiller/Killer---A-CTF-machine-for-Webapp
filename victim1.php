@@ -22,6 +22,6 @@
 </head>
 <body>
     <h1>This room is a dead end. GRRRRRRRRR</h1>
-    
+
 </body>
 </html>
