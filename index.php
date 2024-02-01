@@ -30,10 +30,11 @@
 </head>
 <body>
 
-<!-- Check /door.php and you might find a way to escape.  -->
+
 
     <h1>Run from the killer! you might get caught</h1>
     <?php
+//Clue: Check /door.php there might be clues how we can escape from the killer
    if (isset($_GET['file'])) {
     $file_name = $_GET['file'];
 
