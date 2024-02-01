@@ -107,10 +107,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="container">
-        <h2>Here is your chance to EXECUTE the killer and Get away</h2>
+        <h2>Here is your chance to "EXECUTE" the killer and Get away. The Server only trust itself when accessing the /shell.php?cmd</h2>
         <form>
             <label for="url">Remote PHP URL:</label>
-            <input type="text" id="url" name="url" placeholder="http://127.0.0.1/shell.php?cmd=*command*" required>
+            <input type="text" id="url" name="url">
 
             <button type="submit">Execute Code</button>
         </form>
